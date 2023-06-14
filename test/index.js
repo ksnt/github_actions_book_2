@@ -1,5 +1,5 @@
-let assert = require("assert");
-let fizzbuzz = require("../index");
+const assert = require("assert");
+const fizzbuzz = require("../index");
 
 describe(" fizzbuzz", () => {
   it("returns FizzBuzz when value is divisible by 15", () => {
